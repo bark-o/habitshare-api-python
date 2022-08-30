@@ -11,6 +11,7 @@ async def run_async(func):
 class HabitShareAsync:
     def __init__(self, username, password):
         self._api = HabitShare(username, password)
+        # TODO: enable direct access of cached friends list
 
     async def get_habits(self):
         """Returns a dict with all of authorized user's habit data"""

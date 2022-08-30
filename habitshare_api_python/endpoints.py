@@ -5,11 +5,12 @@ API_VERSION = "v3"
 
 REST_API = urljoin(BASE_URL, "/api/%s/" % API_VERSION)
 
+# TODO: deal with the existance/lack of final backslash
 AUTHORIZE_ENDPOINT = "rest-auth/login/"
-HABITS_ENDPOINT = "habits/"
-MESSAGES_ENDPOINT = "messages/"
+HABITS_ENDPOINT = "habits"
+MESSAGES_ENDPOINT = "messages"
 
-FRIENDS_ENDPOINT = "friends/"
+FRIENDS_ENDPOINT = "friends"
 USERS_ENDPOINT = "users/"
 
 LOGIN_URL = urljoin(BASE_URL, AUTHORIZE_ENDPOINT)
