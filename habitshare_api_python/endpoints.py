@@ -1,4 +1,3 @@
-
 from urllib.parse import urljoin
 
 BASE_URL = "https://habitshare.herokuapp.com"
