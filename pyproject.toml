@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "habitshare_api_python"
+version = "1.0.0"
+description = "Unofficial Python API client for HabitShare social habit tracking app."
+authors = ["Cyrus Kirk <cyrusjkirk@gmail.com>"]
+keywords = ["HabitShare", "rest", "api", "python"]
+license = "MIT"
+classifiers = [
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+black = "^22.6.0"
+flake8 = "^5.0.4"
+isort = "^5.10.1"
+pytest-asyncio = "^0.19.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
